@@ -1,6 +1,7 @@
 describe('login page', () => {
     beforeEach(() => {
         cy.visit('http://localhost:8080/');
+        var texto = JSON.stringify(objeto);
     });
 
     it('realizar login com sucesso', () => {
