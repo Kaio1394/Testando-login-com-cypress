@@ -1,5 +1,12 @@
 {
   "name": "Using fixtures to represent data",
-  "email": "hello@cypress.io",
-  "body": "Fixtures are a great way to mock data for responses to routes"
+  "email": "kaio.santiago.13@hotmail.com",
+  "senha-valida": "1234",
+  "email-invalido": "hello@cypress.io",
+  "senha-invalida": "123456789",
+  "body": "Fixtures are a great way to mock data for responses to routes",
+  "mensagem": "Login efetuado",
+  "mensagem-erro-login": "Senha inválida",
+  "mensagem-erro-nao-inserido-senha": "Senha não preenchido!",
+  "mensagem-erro-nao-inserido-email": "Email não preenchido!"
 }

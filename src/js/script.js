@@ -1,9 +1,9 @@
 function validation() {
     var email = document.getElementById('email');
     var senha = document.getElementById('senha');
-    var mensagem = document.getElementById('mensagem');
+    var mensagem = document.getElementById('mensagem-span');
     if(email.value !== "" && senha.value !== ""){
-        if(email.value == "kaio" && senha.value == "1234"){
+        if(email.value == "kaio.santiago.13@hotmail.com" && senha.value == "1234"){
             mensagem.innerText = "Login efetuado";
         }else{
             mensagem.innerText = "Senha inválida";
