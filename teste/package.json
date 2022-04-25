@@ -1,0 +1,14 @@
+{
+  "name": "teste-login",
+  "version": "1.0.0",
+  "description": "Testar uma aplicação desenvolvida com html, css e js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Kaio Cândido Santiago",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.5.4"
+  }
+}
